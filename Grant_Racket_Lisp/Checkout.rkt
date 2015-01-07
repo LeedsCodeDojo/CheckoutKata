@@ -1,6 +1,6 @@
 #lang racket/base
 
-(define (calc-total items)
-  0)
-  
+(define (calc-total items prices)
+  (* (length items) prices))
+
 (provide calc-total)
